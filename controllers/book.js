@@ -106,7 +106,7 @@ module.exports.processEditPage = (req, res, next) => {
 
     let updatedBook = Book({
         _id: req.body.id,
-        Title: req.body.Iitle,
+        Title: req.body.Title,
         Description: req.body.Description,
         Price: req.body.Price,
         Author: req.body.Author,
